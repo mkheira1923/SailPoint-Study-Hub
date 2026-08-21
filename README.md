@@ -1,64 +1,88 @@
-# SCIP Study Hub — SAVIGA-C01
+# SailPoint Engineer Study Hub
 
-Interactive study hub for the **Saviynt Certified IGA Professional** exam, built directly from
-Saviynt's official Exam Preparation Guide.
+Interactive study hub for **both** SailPoint engineer certifications, in one self-contained page.
 
-**Live site:** https://mkheira1923.github.io/scip-study-hub/
+- **SailPoint Certified IdentityIQ Engineer**
+- **SailPoint Certified Identity Security Engineer** — the exam formerly called *IdentityNow Engineer*
+
+**Live site:** https://mkheira1923.github.io/SailPoint-Study-Hub/
 
 ## What's in it
 
-- **The blueprint, verbatim** — all 6 sections, 28 objectives and 95 numbered sub-topics reproduced
-  exactly as Saviynt publishes them, plus their three official sample questions
-- **Study material for every objective** — 171 key facts with the exact UI paths, job names and
-  configuration values, each with its common trap and a hands-on drill
-- **210 practice questions**, every one tagged to its objective, with an explanation and a source
-- **146 flashcards** across all 28 objectives
-- **Per-section quizzes** that report by *objective* — a wrong answer tells you to reread 1.3
-  Application Onboarding, not just "section 1"
-- **Full mock exam to spec** — 70 questions drawn to the official 15/15/10/10/15/5 weighting,
-  2-hour clock, question navigator with flagging, scored on the real 50–500 scale with a 350 pass mark
-- **SailPoint bridge** — 28 concepts explained then mapped side by side, with the place each
-  analogy breaks down
-- **Corrections page** — 12 documented factual errors circulating in third-party material
-- Glossary, 20 sources, light/dark, works offline, progress saved in your browser
+- **322 practice questions** — 164 IdentityIQ, 158 ISC — every one with an explanation and a source
+- **191 flashcards** across all seventeen domains
+- **183 field review items** — topics recalled straight after sitting both exams, reconstructed as questions with the answer worked out and tagged by confidence
+- **DOMC drill** — the real exam format. One option at a time, in random order, yes or no, no going back
+- **Timed mock exams** — 60 questions in 90 minutes per exam, drawn in proportion to each blueprint's objective weighting
+- **Study pages per domain** — key facts, the traps that cost marks, and the exact UI paths, object names, log files and commands
+- **IdentityIQ ↔ ISC bridge** — 33 concept mappings for anyone crossing between the two products
+- **Seven reference tables** — every transform operation, every rule type and where it runs, VA services and logs, IIQ console commands, IdentityIQ 8.5 platform support, and the ISC certification content rules
+- 61-term glossary, full source list, light/dark, works offline, progress saved in your browser
 
-## The blueprint
+## The blueprints
 
-| # | Section | Questions | Weight |
-|---|---|---|---|
-| 01 | Building Identity Warehouse | 15 | 21.4% |
-| 02 | Access Request System (ARS) | 15 | 21.4% |
-| 03 | Rules and Policies *(detailed heading: Rules Engineering)* | 10 | 14.3% |
-| 04 | Segregation of Duties (SoDs) | 10 | 14.3% |
-| 05 | Attestation *(detailed heading: Access Reviews)* | 15 | 21.4% |
-| 06 | Analytics | 5 | 7.1% |
-| | **Total** | **70** | |
+### SailPoint Certified IdentityIQ Engineer
 
-SAVIGA-C01 · 70 questions · 120 minutes · scaled 50–500 · pass at 350 · ProctorU · L100 training required.
+Seven subject areas, 50 objectives. 90 minutes, DOMC format. The seven areas correspond to the score report you receive immediately after the exam.
 
-## Two things worth knowing
+| # | Subject area | Objectives |
+|---|---|---|
+| 1 | IdentityIQ Installation, Build and Deployment | 7 |
+| 2 | IdentityIQ Lifecycle Manager | 7 |
+| 3 | IdentityIQ Identity Governance | 7 |
+| 4 | IdentityIQ Development | 10 |
+| 5 | IdentityIQ Application Onboarding | 6 |
+| 6 | IdentityIQ Debugging and Troubleshooting | 6 |
+| 7 | IdentityIQ Data and Access Modeling | 7 |
+| | **Total** | **50** |
 
-**Segregation of Duties is a trap.** The L100 training has no SoD module and no SoD lab, yet SoD is
-10 exam questions with 6 objectives and 23 sub-topics. Section 4 here is written to close that gap.
+### SailPoint Certified Identity Security Engineer
 
-**Two facts in circulation are stale.** The exam moved from Examity to **ProctorU**, and
-**Scenario-Based** questions were added as a third question type — the 2021 edition of the blueprint
-lists only two.
+Ten domains, 70 objectives. 90 minutes, DOMC format. USD 400, two attempts included, 364 days to schedule, minimum one year of hands-on experience expected.
+
+| # | Domain | Objectives |
+|---|---|---|
+| 1 | Identity and Lifecycle Management | 8 |
+| 2 | Provisioning | 9 |
+| 3 | Access Management | 3 |
+| 4 | Virtual Appliances (VA) | 12 |
+| 5 | Sources | 7 |
+| 6 | General Knowledge for Identity Security Engineer | 7 |
+| 7 | Platforms | 10 |
+| 8 | Supporting Governance | 5 |
+| 9 | Architecture | 5 |
+| 10 | Rules and Transforms | 4 |
+| | **Total** | **70** |
+
+Both blueprints are reproduced verbatim on the Blueprint page and every question is tagged to its objective.
+
+## A note on the format
+
+Both exams use **Discrete Option Multiple Choice**. You are not shown four options and asked which is right. You are shown options **one at a time, in random order**, and asked **yes** or **no** to each. There is no back, no skip, no review, and no changing an answer.
+
+That changes how you should study, so the hub includes a dedicated DOMC drill mode alongside the conventional multiple-choice practice. The single most useful habit it trains: **judge the statement in front of you**. An option that is true but incomplete is still true — reject only what is actually wrong.
 
 ## Sources
 
-Anchored to the official [SCIP Exam Preparation Guide](https://saviynt.com/hubfs/Saviynt%20Certified%20IGA%20Professional%20(SCIP)%20Exam%20Preparation%20Guide%20(1).pdf?hsLang=en),
-the Saviynt IGA L100 training materials, the [EIC Administration Guide](https://docs.saviyntcloud.com/),
-[Saviynt's REST API reference](https://developers.saviynt.com/), and
-[Saviynt's own Terraform provider](https://github.com/Saviynt/terraform-provider-saviynt).
-Full list with provenance notes on the Sources page.
+Built from SailPoint's published exam study guides, the public product documentation at `documentation.sailpoint.com`, the developer documentation at `developer.sailpoint.com`, the Compass technical whitepapers, and the IdentityIQ 8.5 release notes.
 
-Where a fact could not be verified from an official source, the app says so rather than guessing.
-Where Saviynt's own documents disagree, both readings are shown.
+The **Field Review** section is different in kind: it reconstructs topics recalled immediately after sitting both exams. Every item carries a confidence tag —
 
-Not affiliated with or endorsed by Saviynt. Study aid only.
+- **SailPoint** — answered directly by SailPoint
+- **Documented** — verified against product documentation
+- **Field** — recalled and reasoned
+- **Open** — still uncertain, worth confirming before you rely on it
+
+Nothing in this repository reproduces live exam items. Practice questions are written from the documented behaviour of the products against the published objectives.
+
+Not affiliated with or endorsed by SailPoint. Study aid only.
 
 ## Running it
 
-One self-contained HTML file. No dependencies, no build step, no network calls.
-Open `index.html` in any browser, or serve the folder with anything static.
+One self-contained HTML file. No dependencies, no build step, no network calls. Open `index.html` in any browser, or serve the folder with anything static.
+
+```
+python3 -m http.server 8000
+```
+
+Progress — answered questions, known flashcards, best mock score — is stored in your own browser and never leaves it.
