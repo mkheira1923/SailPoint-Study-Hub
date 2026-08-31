@@ -9,15 +9,17 @@ Interactive study hub for **both** SailPoint engineer certifications, in one sel
 
 ## What's in it
 
-- **322 practice questions** — 164 IdentityIQ, 158 ISC — every one with an explanation and a source
-- **191 flashcards** across all seventeen domains
-- **183 field review items** — topics recalled straight after sitting both exams, reconstructed as questions with the answer worked out and tagged by confidence
+- **482 practice questions** — 235 IdentityIQ, 247 ISC — every one with an explanation and a source
+- **297 flashcards** across all seventeen domains
+- **195 field review items** — topics recalled straight after sitting both exams, reconstructed as questions with the answer worked out and tagged by confidence (138 ISC, 57 IdentityIQ)
 - **DOMC drill** — the real exam format. One option at a time, in random order, yes or no, no going back
 - **Timed mock exams** — 60 questions in 90 minutes per exam, drawn in proportion to each blueprint's objective weighting
 - **Study pages per domain** — key facts, the traps that cost marks, and the exact UI paths, object names, log files and commands
+- **Global search** — press `/` anywhere to search all 1685 indexed items: questions, flashcards, review items, study notes, glossary, bridge and reference tables
+- **Targeted practice** — retry what you missed, work through what you starred, or drill only what you have not seen
 - **IdentityIQ ↔ ISC bridge** — 33 concept mappings for anyone crossing between the two products
-- **Seven reference tables** — every transform operation, every rule type and where it runs, VA services and logs, IIQ console commands, IdentityIQ 8.5 platform support, and the ISC certification content rules
-- 61-term glossary, full source list, light/dark, works offline, progress saved in your browser
+- **14 reference tables** — every transform operation, every rule type and where it runs, ISC numbers and limits, VA toolbox commands and expected connectivity responses, ISC search syntax, IdentityIQ predefined tasks and rule signatures, scoping in depth, and the certification content rules
+- 82-term glossary, full source list, keyboard shortcuts, printable study pages, light/dark, works offline, progress saved in your browser and exportable
 
 ## The blueprints
 
@@ -64,7 +66,7 @@ That changes how you should study, so the hub includes a dedicated DOMC drill mo
 
 ## Sources
 
-Built from SailPoint's published exam study guides, the public product documentation at `documentation.sailpoint.com`, the developer documentation at `developer.sailpoint.com`, the Compass technical whitepapers, and the IdentityIQ 8.5 release notes.
+Built from SailPoint's published exam study guides, the public product documentation at `documentation.sailpoint.com`, the developer documentation at `developer.sailpoint.com`, the Compass technical whitepapers, the IdentityIQ 8.5 release notes, and SailPoint's own course material. Every source is listed in the app with a note on what it contributed.
 
 The **Field Review** section is different in kind: it reconstructs topics recalled immediately after sitting both exams. Every item carries a confidence tag —
 
@@ -85,4 +87,18 @@ One self-contained HTML file. No dependencies, no build step, no network calls. 
 python3 -m http.server 8000
 ```
 
-Progress — answered questions, known flashcards, best mock score — is stored in your own browser and never leaves it.
+Progress — answered questions, known flashcards, starred items, study streak and best mock score — is stored in your own browser and never leaves it. Use the buttons on the Glossary page to copy it to another machine or keep a backup.
+
+## Keyboard shortcuts
+
+| Key | Action |
+|---|---|
+| `/` | Search everything |
+| `1`–`9` | Jump to a page |
+| `X` | Switch exam |
+| `T` | Toggle theme |
+| `E` | Expand or collapse every accordion on the page |
+| `Space` | Flip the current flashcard |
+| `←` `→` | Previous / next flashcard |
+| `Y` / `N` | Answer in the DOMC drill |
+| `Esc` | Close search |
